@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input di Atas Gambar</title>
+    <style>
+        body{
+            background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230527/pngtree-nature-wallpapers-image_2683049.jpg');
+        }
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .container img {
+            width: 500px;
+            height: auto;
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        /* Styles untuk input */
+        .input-container {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;  
+        }
+
+        .input-container input {
+            padding: 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <img src="Wody.jpeg" alt="Gambar kartun">
+    <div class="centered">
+        <h2>Selamat Datang</h2>
+        <p>Di sini Anda bisa menempatkan input di atas gambar.</p>
+    </div>
+
+    <!-- Input ditempatkan di atas gambar -->
+    <div class="input-container">
+        <input type="text" placeholder="Masukkan sesuatu...">
+    </div>
+</div>
+
+</body>
+</html>

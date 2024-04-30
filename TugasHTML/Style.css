@@ -1,0 +1,14 @@
+body{
+    background-color: aqua;
+}
+.right{
+    text-align: right;
+    font-weight: bold;
+}
+.left{
+    text-align: left;
+
+}
+.center{
+    text-align: center;
+}
